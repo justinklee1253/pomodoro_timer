@@ -14,6 +14,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     overflow: hidden;
+    background-color: #D9534F; /* Set the background color for the main screen */
 }
 
 .navbar {
@@ -31,7 +32,7 @@ body {
     align-items: center;
     justify-content: center;
     height: calc(100vh - 70px); /* Adjust based on the height of your navbar */
-    width: 100%;
+    width: 500px;
     margin-top: 70px; /* Adjust based on the height of your navbar */
 }
 
@@ -41,12 +42,12 @@ body {
     align-items: center;
     justify-content: center;
     background-color: white;
-    padding: 20px;
+    padding: 50px;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    max-width: 350px; /* Set a maximum width */
-    width: 100%; /* Set width to 100% to fit within the parent */
+    max-width: 100px; /* Set a maximum width */
+    width: 100%; /* Set width to fit within the parent */
 }
 
 #timer {
@@ -58,8 +59,9 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    margin: 5px;
-    width: 200px; /* Set a fixed width for the buttons */
+    margin: 5px 0;
+    width: 100%; /* Set width to 100% for consistency */
+    max-width: 250px; /* Ensure a maximum width for the buttons */
     border: none;
     border-radius: 5px;
 }
@@ -76,8 +78,8 @@ button {
 }
 
 #count {
-    margin-top: 20px;
-    font-size: 24px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 h1 {
