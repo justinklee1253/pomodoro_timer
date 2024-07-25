@@ -48,6 +48,10 @@ function displayTime() {
     document.getElementById('timer').textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
 }
 
+function playAudio(url) {
+    new Audio(url).play(); //Audio constructor creates and returns a new HTMLAudioElement
+}
+
 window.onload = function() { 
     displayTime();
 }

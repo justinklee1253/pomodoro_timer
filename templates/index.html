@@ -17,7 +17,8 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    <a class="nav-link" href="login.html">Sign In</a>
+                    <a class="nav-link" href="signup.html">Sign-Up</a>
+                    <a class="nav-link" href="login.html">Login</a>
                 </div>
             </div>
         </div>
@@ -27,8 +28,8 @@
         <div class="container">
             <h1 id="welcome-message">Let's Focus!</h1>
             <div id="timer">25:00</div>
-            <button id="start-pause-button" onclick="startPauseTimer()">Start</button>
-            <button id="reset-button" onclick="resetTimer()">Reset</button>
+            <button id="start-pause-button" onclick="startPauseTimer();playAudio('../audio/startbutton.mp3')">Start</button>
+            <button id="reset-button" onclick="resetTimer();playAudio('../audio/resetbutton.mp3')">Reset</button>
             <div id="count">Pomodoros Completed: 0</div>
         </div>
     </div>
